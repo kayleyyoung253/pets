@@ -13,6 +13,9 @@ $f3 = Base::instance();  //instance method
 $f3->route('GET /', function() {
     echo "Pet Home";
 
+    //display a view page
+    $view = new Template();// template is a class from fat-free
+    echo $view->render('views/home.html');
 });
 
 //run Fat-Free
