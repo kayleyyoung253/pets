@@ -11,7 +11,7 @@ $f3 = Base::instance();  //instance method
 
 //Define a default route-invoking route method
 $f3->route('GET /', function() {
-    echo "Pet Home";
+    //echo "Pet Home";
 
     //display a view page
     $view = new Template();// template is a class from fat-free
