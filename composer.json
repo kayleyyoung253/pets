@@ -1,0 +1,13 @@
+{
+  "name": "kyounggr/328/pets",
+  "description": "Pair program for week 3",
+  "authors": [
+    {
+      "name": "Kayley Young",
+      "email": "young.kayley@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
